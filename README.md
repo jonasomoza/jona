@@ -1,2 +1,0 @@
-# jona
-practica
