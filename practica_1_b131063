@@ -1,0 +1,52 @@
+<html>
+<head> </head>
+<body>
+
+<TABLE BORDER="5" CELLSPACING="6" WIDTH="900"> 
+<TH COLSPAN="2"> NUEVO ALUMNO</TH>
+<TR align="center">
+
+<form action="insertar.php" method="post">
+<tr>
+
+
+<td><b>MATRICULA   :<input type="text" size="20" 
+
+maxlength="4"><br>
+
+<b> NOMBRE   : <input type="text" size="24" maxlength="20"><br>
+
+<b> APELLIDO PATERNO :<input type="text" size="20" 
+
+maxlength="20"><br>
+
+<b> APELLIDO MATERNO  :<input type="text" size="20" 
+
+maxlength="20"><br>
+
+
+<td><b> 
+FECHA DE NACIMIENTO  : <input type="date" size="10" 
+
+maxlength="6"><br>
+
+<b> EDAD   : <input type="numeric" size="20" maxlength="2"><br>
+
+<b> MUNICIPIO : <input type="text" size="20" maxlength="4"><br>
+
+<b> FOTOGRAFIA: <input type="file" size="20" 
+
+maxlength="4"><br><br><br>
+
+
+
+<input type="submit" value="registrar">
+<br><br>
+
+
+
+</form>
+
+ </table>
+</body>
+</html>
